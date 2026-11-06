@@ -8,16 +8,34 @@
   <!-- SEO Meta Tags Primárias -->
   <meta name="description" content="Móveis e eletrodomésticos direto da fábrica em Valparaíso de Goiás e DF. Economize comprando sem intermediários: sofás, salas de jantar, colchões, cozinhas e eletros com entrega e montagem garantida em até 48 horas. Parcelamento em até 10x sem juros!">
   <meta name="keywords" content="nunes moveis, moveis direto da fabrica valparaiso, moveis valparaiso de goias, moveis df entorno, triangulacao de moveis, atacado de moveis, sofa retratil, mesa fiorenca, cadeiras sena, colchao plumatex, colchao gazin, home martino, cozinha compacta, crediario moveis">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="author" content="Nunes Móveis e Eletro LTDA">
-  <link rel="canonical" href="https://nunes-moveis.vercel.app/">
+  <link rel="canonical" href="https://nunesmoveis.vercel.app/">
+  
+  <!-- PWA & Mobile Web Standards -->
+  <meta name="theme-color" content="#ffc107">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- LLM & Generative Engine Optimization (GEO) Links -->
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="Contexto Resumido para LLMs">
+  <link rel="alternate" type="text/markdown" href="/llms-full.txt" title="Base Completa para Agentes de IA">
+
+  <!-- Geotagging & Local SEO para Valparaíso de Goiás e DF -->
+  <meta name="geo.region" content="BR-GO">
+  <meta name="geo.placename" content="Valparaíso de Goiás">
+  <meta name="geo.position" content="-16.0738357;-47.9806324">
+  <meta name="ICBM" content="-16.0738357, -47.9806324">
   
   <!-- Open Graph / Facebook / WhatsApp Preview -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nunes-moveis.vercel.app/">
+  <meta property="og:url" content="https://nunesmoveis.vercel.app/">
   <meta property="og:title" content="Nunes Móveis e Eletro | Móveis Direto da Fábrica com Preço de Atacado">
   <meta property="og:description" content="Tudo o que sua casa precisa direto das melhores fábricas do Brasil. Entrega rápida e montagem em até 48h no DF e Entorno. Em até 10x sem juros ou crediário facilitado!">
-  <meta property="og:image" content="https://nunes-moveis.vercel.app/fotos/hero-banner.jpg">
+  <meta property="og:image" content="https://nunesmoveis.vercel.app/fotos/hero-banner.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Nunes Móveis e Eletro">
 
@@ -25,12 +43,12 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Nunes Móveis e Eletro | Direto da Fábrica">
   <meta name="twitter:description" content="Compre móveis direto da fábrica com economia real e entrega em até 48h no DF e Goiás.">
-  <meta name="twitter:image" content="https://nunes-moveis.vercel.app/fotos/hero-banner.jpg">
+  <meta name="twitter:image" content="https://nunesmoveis.vercel.app/fotos/hero-banner.jpg">
 
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="fotos/logo.jpg">
   
-  <!-- Google Fonts: Inter & Outfit -->
+  <!-- Google Fonts: Inter & Outfit com Preconnect & Font-Display Swap -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -54,7 +72,6 @@
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
     
-    // Inicialização com Pixel ID (substitua pelo ID de produção se houver)
     fbq('init', '1182490246538192'); 
     fbq('track', 'PageView');
   </script>
@@ -74,24 +91,66 @@
   </script>
 
   <!-- ========================================== -->
-  <!-- SCHEMA.ORG LOCAL BUSINESS & PRODUCT JSON-LD -->
+  <!-- SCHEMA.ORG MASTER GRAPH: LOCAL BUSINESS,   -->
+  <!-- WEBSITE, PRODUCTS, BREADCRUMBS & FAQ       -->
   <!-- ========================================== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebSite",
+        "@id": "https://nunesmoveis.vercel.app/#website",
+        "url": "https://nunesmoveis.vercel.app/",
+        "name": "Nunes Móveis e Eletro",
+        "description": "Catálogo de móveis e eletrodomésticos direto da fábrica em Valparaíso de Goiás e DF",
+        "publisher": {
+          "@id": "https://nunesmoveis.vercel.app/#store"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://nunesmoveis.vercel.app/?search={search_term_string}#catalogo",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://nunesmoveis.vercel.app/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://nunesmoveis.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Catálogo Direto da Fábrica",
+            "item": "https://nunesmoveis.vercel.app/#catalogo"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Simulador de Parcelas",
+            "item": "https://nunesmoveis.vercel.app/#simulador"
+          }
+        ]
+      },
+      {
         "@type": "FurnitureStore",
-        "@id": "https://nunes-moveis.vercel.app/#store",
+        "@id": "https://nunesmoveis.vercel.app/#store",
         "name": "Nunes Móveis e Eletro",
         "legalName": "NUNES MOVEIS E ELETRO LTDA",
         "taxID": "53.844.497/0001-90",
-        "url": "https://nunes-moveis.vercel.app/",
-        "logo": "https://nunes-moveis.vercel.app/fotos/logo.jpg",
-        "image": "https://nunes-moveis.vercel.app/fotos/hero-banner.jpg",
+        "url": "https://nunesmoveis.vercel.app/",
+        "logo": "https://nunesmoveis.vercel.app/fotos/logo.jpg",
+        "image": "https://nunesmoveis.vercel.app/fotos/hero-banner.jpg",
         "description": "Loja especializada em móveis e eletrodomésticos direto da fábrica com preços de atacado, entrega e montagem garantida em até 48 horas em Valparaíso de Goiás, Brasília e Entorno do DF.",
         "telephone": "+5561981889061",
         "priceRange": "$$",
+        "currenciesAccepted": "BRL",
+        "paymentAccepted": "Cash, Credit Card, Pix, Direct Store Credit",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Quadra 37, R. Quatorze, lote 10 - loja :02",
@@ -104,6 +163,26 @@
           "@type": "GeoCoordinates",
           "latitude": -16.0738357,
           "longitude": -47.9806324
+        },
+        "areaServed": [
+          "Valparaíso de Goiás",
+          "Cidade Ocidental",
+          "Luziânia",
+          "Novo Gama",
+          "Santa Maria - DF",
+          "Gama - DF",
+          "Ceilândia - DF",
+          "Samambaia - DF",
+          "Taguatinga - DF",
+          "Brasília - DF"
+        ],
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "BR",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 90,
+          "returnMethod": "https://schema.org/ReturnAtKiosk",
+          "returnFees": "https://schema.org/FreeReturn"
         },
         "openingHoursSpecification": [
           {
@@ -134,21 +213,24 @@
       },
       {
         "@type": "ItemList",
-        "@id": "https://nunes-moveis.vercel.app/#catalog",
+        "@id": "https://nunesmoveis.vercel.app/#catalog",
         "name": "Catálogo Direto da Fábrica Nunes Móveis",
+        "numberOfItems": 8,
         "itemListElement": [
           {
             "@type": "Product",
             "position": 1,
             "name": "Home Martino com Painel Ripado e LED",
             "sku": "NM-HOM-01",
-            "image": "https://nunes-moveis.vercel.app/fotos/home-martino.jpg",
+            "image": "https://nunesmoveis.vercel.app/fotos/home-martino.jpg",
             "description": "Home para TV até 75 polegadas com painel ripado decorativo, apliques em MDF nobre, prateleira superior e prateleira de vidro temperado com iluminação LED embutida.",
             "brand": { "@type": "Brand", "name": "Nunes Móveis" },
             "offers": {
               "@type": "Offer",
               "price": "1343.00",
               "priceCurrency": "BRL",
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock",
               "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
             }
@@ -158,14 +240,17 @@
             "position": 2,
             "name": "Conjunto Sala de Jantar Mesa Fiorença + Cadeiras Sena",
             "sku": "NM-JNT-02",
-            "image": "https://nunes-moveis.vercel.app/fotos/mesa-fiorenca-sena.jpg",
+            "image": "https://nunesmoveis.vercel.app/fotos/mesa-fiorenca-sena.jpg",
             "description": "Conjunto sala de jantar com mesa Fiorença 1,20x0,90m base em madeira maciça, tampo cinamomo e 4 cadeiras Sena com tela sextavada cor nogueira.",
             "brand": { "@type": "Brand", "name": "Nunes Móveis" },
             "offers": {
               "@type": "Offer",
               "price": "2085.00",
               "priceCurrency": "BRL",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
             }
           },
           {
@@ -173,14 +258,17 @@
             "position": 3,
             "name": "Colchão Box Casal Concept Blue Plumatex Molas Ensacadas",
             "sku": "NM-COL-03",
-            "image": "https://nunes-moveis.vercel.app/fotos/colchao-concept-blue.jpg",
+            "image": "https://nunesmoveis.vercel.app/fotos/colchao-concept-blue.jpg",
             "description": "Colchão Casal Box Plumatex Concept Blue com molas ensacadas individuais, espuma de suporte D-28, malha suave e base antiderrapante.",
             "brand": { "@type": "Brand", "name": "Plumatex" },
             "offers": {
               "@type": "Offer",
               "price": "949.99",
               "priceCurrency": "BRL",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
             }
           },
           {
@@ -188,28 +276,103 @@
             "position": 4,
             "name": "Bancada Requinte Gelius com Nicho Iluminado",
             "sku": "NM-BAN-04",
-            "image": "https://nunes-moveis.vercel.app/fotos/bancada-requinte.jpg",
+            "image": "https://nunesmoveis.vercel.app/fotos/bancada-requinte.jpg",
             "description": "Rack Bancada Requinte Gelius com 3 gavetões corrediças telescópicas, acabamento amadeirado nogueira e fita LED embutida.",
             "brand": { "@type": "Brand", "name": "Gelius Móveis" },
             "offers": {
               "@type": "Offer",
               "price": "899.00",
               "priceCurrency": "BRL",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
+            }
+          },
+          {
+            "@type": "Product",
+            "position": 5,
+            "name": "Colchão Gazin Espuma Supreme Casal",
+            "sku": "NM-COL-05",
+            "image": "https://nunesmoveis.vercel.app/fotos/colchao-gazin-supreme.jpg",
+            "description": "Colchão de casal Gazin com dimensões 1380 x 1880 x 210mm com espuma de densidade balanceada e certificado Inmetro.",
+            "brand": { "@type": "Brand", "name": "Gazin" },
+            "offers": {
+              "@type": "Offer",
+              "price": "789.97",
+              "priceCurrency": "BRL",
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
+            }
+          },
+          {
+            "@type": "Product",
+            "position": 6,
+            "name": "Cadeira Stela Fam 3 Veludo Luxo com Puxador",
+            "sku": "NM-CAD-06",
+            "image": "https://nunesmoveis.vercel.app/fotos/cadeira-stela.jpg",
+            "description": "Cadeira para sala de jantar em veludo cinza matelassê em diamante, estrutura em madeira e puxador ergonômico.",
+            "brand": { "@type": "Brand", "name": "Fam 3" },
+            "offers": {
+              "@type": "Offer",
+              "price": "180.00",
+              "priceCurrency": "BRL",
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
+            }
+          },
+          {
+            "@type": "Product",
+            "position": 7,
+            "name": "Tanquinho Suggar Eco 15KG Lavadora",
+            "sku": "NM-ELE-07",
+            "image": "https://nunesmoveis.vercel.app/fotos/tanquinho-suggar.jpg",
+            "description": "Lavadora semiautomática 15kg com 6 programas de lavagem, filtro pega-fiapos e timer inteligente de 28 minutos.",
+            "brand": { "@type": "Brand", "name": "Suggar" },
+            "offers": {
+              "@type": "Offer",
+              "price": "578.00",
+              "priceCurrency": "BRL",
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
+            }
+          },
+          {
+            "@type": "Product",
+            "position": 8,
+            "name": "Cozinha Compacta Pitaya 7 Portas Demóbile",
+            "sku": "NM-COZ-08",
+            "image": "https://nunesmoveis.vercel.app/fotos/cozinha-eletros.jpg",
+            "description": "Armário de cozinha compacto modulado com 7 portas, 2 gavetas reforçadas e nicho para micro-ondas acabamento cinamomo/off white.",
+            "brand": { "@type": "Brand", "name": "Demóbile" },
+            "offers": {
+              "@type": "Offer",
+              "price": "761.00",
+              "priceCurrency": "BRL",
+              "priceValidUntil": "2027-12-31",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "FurnitureStore", "name": "Nunes Móveis e Eletro" }
             }
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://nunes-moveis.vercel.app/#faq",
+        "@id": "https://nunesmoveis.vercel.app/#faq",
         "mainEntity": [
           {
             "@type": "Question",
             "name": "Como funciona a compra direto da fábrica na Nunes Móveis?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Nós operamos conectados diretamente às melhores indústrias moveleiras do país. Você adquire o produto com preço de fábrica, sem custos de intermediários, recebendo o produto novo na caixa com montagem e entrega em até 48h."
+              "text": "Nós operamos conectados diretamente às melhores indústrias moveleiras do país (Gelius, Demóbile, Plumatex, Gazin). Você adquire o produto com preço de atacado, sem custos de intermediários, recebendo o produto novo na caixa com montagem e entrega em até 48h."
             }
           },
           {
@@ -227,6 +390,14 @@
               "@type": "Answer",
               "text": "Aceitamos parcelamento em até 10x sem juros no cartão de crédito, Pix à vista com desconto imediato e crediário facilitado direto na loja."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Os móveis possuem nota fiscal e garantia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim, todos os produtos são entregues lacrados com emissão de Nota Fiscal pela Nunes Móveis e Eletro LTDA (CNPJ: 53.844.497/0001-90) e garantia legal contra qualquer defeito de fabricação."
+            }
           }
         ]
       }
@@ -239,7 +410,7 @@
   <!-- ========================================== -->
   <!-- TOP ANNOUNCEMENT BAR                       -->
   <!-- ========================================== -->
-  <div class="top-announcement-bar">
+  <aside class="top-announcement-bar" aria-label="Avisos Importantes">
     <div class="container top-bar-content">
       <div class="top-bar-left">
         <span class="badge-pulse"><span class="pulse-dot"></span> ATACADO DIRETO DA FÁBRICA</span>
@@ -256,16 +427,16 @@
         <span class="top-rating"><i class="fa-solid fa-star"></i> 5.0 no Google (72 avaliações)</span>
       </div>
     </div>
-  </div>
+  </aside>
 
   <!-- ========================================== -->
   <!-- 21ST.DEV GLASSMORPHIC HEADER & NAVIGATION   -->
   <!-- ========================================== -->
   <header class="glass-header" id="mainHeader">
     <div class="container header-container">
-      <a href="#hero" class="brand-logo">
+      <a href="#hero" class="brand-logo" aria-label="Ir para o início Nunes Móveis">
         <div class="logo-wrapper">
-          <img src="fotos/logo.jpg" alt="Logotipo Nunes Móveis e Eletro" class="logo-img">
+          <img src="fotos/logo.jpg" alt="Logotipo Nunes Móveis e Eletro" class="logo-img" width="46" height="46" decoding="async">
         </div>
         <div class="brand-info">
           <span class="brand-title">NUNES</span>
@@ -274,7 +445,7 @@
       </a>
 
       <!-- Desktop Nav -->
-      <nav class="desktop-nav">
+      <nav class="desktop-nav" aria-label="Navegação Principal">
         <a href="#catalogo" class="nav-link"><i class="fa-solid fa-couch"></i> Catálogo</a>
         <a href="#triangulacao" class="nav-link"><i class="fa-solid fa-industry"></i> Direto da Fábrica</a>
         <a href="#simulador" class="nav-link"><i class="fa-solid fa-calculator"></i> Simulador</a>
@@ -304,7 +475,7 @@
     <div class="mobile-drawer" id="mobileDrawer">
       <div class="drawer-header">
         <span class="drawer-title">Menu Nunes Móveis</span>
-        <button class="drawer-close" id="drawerCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+        <button class="drawer-close" id="drawerCloseBtn" aria-label="Fechar Menu"><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="drawer-links">
         <a href="#catalogo" class="drawer-link"><i class="fa-solid fa-couch"></i> Catálogo de Produtos</a>
@@ -317,431 +488,433 @@
       <div class="drawer-footer">
         <a href="https://wa.me/5561981889061?text=Ol%C3%A1%20Nunes%20M%C3%B3veis!%20Gostaria%20de%20atendimento%20r%C3%A1pido." 
            class="glass-btn glass-btn-primary w-full" 
-           target="_blank">
+           target="_blank"
+           rel="noopener">
           <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
         </a>
       </div>
     </div>
   </header>
 
-  <!-- ========================================== -->
-  <!-- HERO SECTION WITH STITCH & 21ST.DEV FINISH -->
-  <!-- ========================================== -->
-  <section class="hero-section" id="hero">
-    <div class="hero-backdrop" style="background-image: url('fotos/ambiente-planejado.jpg');"></div>
-    <div class="hero-overlay"></div>
-    <div class="container hero-container">
-      
-      <div class="hero-content">
-        <div class="hero-badge-pill">
-          <span class="pill-sparkle"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
-          <span>A EVOLUÇÃO DO SEU LAR COMEÇA AQUI</span>
-          <span class="pill-tag">Atacado & Varejo</span>
-        </div>
-
-        <h1 class="hero-title">
-          Móveis Nobres <span class="gradient-gold-text">Direto da Fábrica</span> para sua Casa.
-        </h1>
-
-        <p class="hero-description">
-          Compre sofás, salas de jantar, colchões e eletros sem pagar a margem abusiva de lojas tradicionais. Triangulação direta de alta escala com <strong>entrega e montagem em até 48 horas</strong> em Valparaíso de Goiás e todo o DF.
-        </p>
-
-        <!-- Dynamic Value Highlights Grid -->
-        <div class="hero-features-grid">
-          <div class="hero-feature-card">
-            <div class="feature-icon"><i class="fa-solid fa-tags"></i></div>
-            <div class="feature-text">
-              <strong>Preço de Fábrica</strong>
-              <span>Economia de até 35%</span>
-            </div>
-          </div>
-          <div class="hero-feature-card">
-            <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
-            <div class="feature-text">
-              <strong>Montagem em 48h</strong>
-              <span>Equipe própria na sua casa</span>
-            </div>
-          </div>
-          <div class="hero-feature-card">
-            <div class="feature-icon"><i class="fa-solid fa-credit-card"></i></div>
-            <div class="feature-text">
-              <strong>Em até 10x Sem Juros</strong>
-              <span>Ou Crediário Facilitado</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Glass Action Buttons -->
-        <div class="hero-cta-group">
-          <a href="#catalogo" class="glass-btn glass-btn-primary glass-btn-lg">
-            <span class="glass-btn-glow"></span>
-            <i class="fa-solid fa-bag-shopping"></i>
-            <span>Explorar Catálogo com Preços</span>
-          </a>
-          <a href="#simulador" class="glass-btn glass-btn-secondary glass-btn-lg">
-            <i class="fa-solid fa-calculator"></i>
-            <span>Simulador de Parcelas</span>
-          </a>
-        </div>
-
-        <!-- Micro Trust Signals -->
-        <div class="hero-trust-signals">
-          <div class="trust-avatars">
-            <span class="avatar-circle"><i class="fa-solid fa-user-check"></i></span>
-            <span class="avatar-circle"><i class="fa-solid fa-shield-heart"></i></span>
-            <span class="avatar-circle"><i class="fa-solid fa-certificate"></i></span>
-          </div>
-          <div class="trust-text">
-            <span>Mais de <strong>72 avaliações 5 estrelas</strong> no Google Meu Negócio</span>
-            <div class="stars-gold">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span class="score-text">5.0 / 5.0</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Hero Visual Showcase Card (Bento Style) -->
-      <div class="hero-visual-card">
-        <div class="glass-card-bento hero-featured-product">
-          <div class="card-badge-factory"><i class="fa-solid fa-bolt"></i> Destaque da Semana</div>
-          <img src="fotos/home-martino.jpg" alt="Home Martino Ripado com LED Nunes Móveis" class="featured-product-img">
-          <div class="featured-product-details">
-            <span class="product-category-tag">Sala de Estar • Lançamento</span>
-            <h3 class="product-featured-title">Home Martino Ripado c/ LED</h3>
-            <p class="product-featured-desc">Para TVs de até 75", nicho iluminado e acabamento premium.</p>
-            <div class="product-pricing-wrap">
-              <div class="price-box">
-                <span class="price-label">Preço Direto da Fábrica</span>
-                <span class="price-value">R$ 1.343,00</span>
-                <span class="installments-highlight">ou 10x de <strong>R$ 134,30</strong> sem juros</span>
-              </div>
-              <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Vi%20o%20*Home%20Martino%20Ripado%20c%2F%20LED*%20(Ref%3A%20NM-HOM-01)%20por%20*R%24%201.343%2C00*%20no%20site%20e%20quero%20fechar%20direto%20da%20f%C3%A1brica%20com%20entrega%2048h!" 
-                 class="glass-btn glass-btn-primary" 
-                 target="_blank" 
-                 rel="noopener"
-                 onclick="trackInitiateCheckout('Home Martino Hero Feature', 'NM-HOM-01', 1343.00, 'Hero Bento Showcase')">
-                <i class="fa-brands fa-whatsapp"></i> Garantir Oferta
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- HOW DIRECT FACTORY TRIANGULATION WORKS     -->
-  <!-- ========================================== -->
-  <section class="section-triangulacao" id="triangulacao">
-    <div class="container">
-      <div class="section-header text-center">
-        <div class="section-tag-badge"><i class="fa-solid fa-circle-nodes"></i> MODELO OPERACIONAL EXCLUSIVO</div>
-        <h2 class="section-heading">Como Funciona a <span class="gradient-gold-text">Triangulação Direto da Fábrica?</span></h2>
-        <p class="section-subheading">
-          Entenda por que a Nunes Móveis consegue oferecer produtos de alto padrão com preços de atacado e entrega expressa em todo o Distrito Federal e Goiás.
-        </p>
-      </div>
-
-      <div class="triangulacao-grid">
+  <main>
+    <!-- ========================================== -->
+    <!-- HERO SECTION WITH STITCH & 21ST.DEV FINISH -->
+    <!-- ========================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop" style="background-image: url('fotos/ambiente-planejado.jpg');"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-container">
         
-        <div class="step-card">
-          <div class="step-number">01</div>
-          <div class="step-icon"><i class="fa-solid fa-industry"></i></div>
-          <h3 class="step-title">Conexão com os Fabricantes</h3>
-          <p class="step-text">
-            Eliminamos distribuidores atacadistas intermediários. Conectamos sua compra diretamente aos pólos industriais (Gelius, Demóbile, Plumatex, Gazin).
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span class="pill-sparkle"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+            <span>A EVOLUÇÃO DO SEU LAR COMEÇA AQUI</span>
+            <span class="pill-tag">Atacado & Varejo</span>
+          </div>
+
+          <h1 class="hero-title">
+            Móveis Nobres <span class="gradient-gold-text">Direto da Fábrica</span> para sua Casa.
+          </h1>
+
+          <p class="hero-description">
+            Compre sofás, salas de jantar, colchões e eletros sem pagar a margem abusiva de lojas tradicionais. Triangulação direta de alta escala com <strong>entrega e montagem em até 48 horas</strong> em Valparaíso de Goiás e todo o DF.
           </p>
-          <div class="step-benefit"><i class="fa-solid fa-check"></i> Menor custo por unidade</div>
+
+          <!-- Dynamic Value Highlights Grid -->
+          <div class="hero-features-grid">
+            <div class="hero-feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-tags"></i></div>
+              <div class="feature-text">
+                <strong>Preço de Fábrica</strong>
+                <span>Economia de até 35%</span>
+              </div>
+            </div>
+            <div class="hero-feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+              <div class="feature-text">
+                <strong>Montagem em 48h</strong>
+                <span>Equipe própria na sua casa</span>
+              </div>
+            </div>
+            <div class="hero-feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-credit-card"></i></div>
+              <div class="feature-text">
+                <strong>Em até 10x Sem Juros</strong>
+                <span>Ou Crediário Facilitado</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Glass Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#catalogo" class="glass-btn glass-btn-primary glass-btn-lg">
+              <span class="glass-btn-glow"></span>
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span>Explorar Catálogo com Preços</span>
+            </a>
+            <a href="#simulador" class="glass-btn glass-btn-secondary glass-btn-lg">
+              <i class="fa-solid fa-calculator"></i>
+              <span>Simulador de Parcelas</span>
+            </a>
+          </div>
+
+          <!-- Micro Trust Signals -->
+          <div class="hero-trust-signals">
+            <div class="trust-avatars">
+              <span class="avatar-circle"><i class="fa-solid fa-user-check"></i></span>
+              <span class="avatar-circle"><i class="fa-solid fa-shield-heart"></i></span>
+              <span class="avatar-circle"><i class="fa-solid fa-certificate"></i></span>
+            </div>
+            <div class="trust-text">
+              <span>Mais de <strong>72 avaliações 5 estrelas</strong> no Google Meu Negócio</span>
+              <div class="stars-gold">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="score-text">5.0 / 5.0</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="step-card step-card-highlight">
-          <div class="step-badge-save">ECONOMIA REAL</div>
-          <div class="step-number">02</div>
-          <div class="step-icon"><i class="fa-solid fa-percent"></i></div>
-          <h3 class="step-title">Markup Justo e Transparente</h3>
-          <p class="step-text">
-            Em vez das margens de 80% a 120% das lojas de shopping, aplicamos um markup enxuto que viabiliza preços imbatíveis para você mobiliar a casa inteira.
-          </p>
-          <div class="step-benefit"><i class="fa-solid fa-check"></i> Sem taxas ocultas</div>
-        </div>
-
-        <div class="step-card">
-          <div class="step-number">03</div>
-          <div class="step-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
-          <h3 class="step-title">Logística & Montagem 48h</h3>
-          <p class="step-text">
-            O produto sai embalado de fábrica direto para o centro de distribuição regional em Valparaíso de Goiás, sendo entregue e montado com equipe especializada.
-          </p>
-          <div class="step-benefit"><i class="fa-solid fa-check"></i> Zero dor de cabeça</div>
-        </div>
-
-        <div class="step-card">
-          <div class="step-number">04</div>
-          <div class="step-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3 class="step-title">Nota Fiscal & Garantia</h3>
-          <p class="step-text">
-            Você recebe o produto 100% lacrado, acompanhado de nota fiscal emitida pela Nunes Móveis e garantia legal total contra qualquer defeito.
-          </p>
-          <div class="step-benefit"><i class="fa-solid fa-check"></i> 100% Seguro e Confiável</div>
+        <!-- Hero Visual Showcase Card (Bento Style) -->
+        <div class="hero-visual-card">
+          <div class="glass-card-bento hero-featured-product">
+            <div class="card-badge-factory"><i class="fa-solid fa-bolt"></i> Destaque da Semana</div>
+            <img src="fotos/home-martino.jpg" alt="Home Martino Ripado com LED Nunes Móveis" class="featured-product-img" width="440" height="380" fetchpriority="high">
+            <div class="featured-product-details">
+              <span class="product-category-tag">Sala de Estar • Lançamento</span>
+              <h2 class="product-featured-title" style="font-size: 1.35rem;">Home Martino Ripado c/ LED</h2>
+              <p class="product-featured-desc">Para TVs de até 75", nicho iluminado e acabamento premium.</p>
+              <div class="product-pricing-wrap">
+                <div class="price-box">
+                  <span class="price-label">Preço Direto da Fábrica</span>
+                  <span class="price-value">R$ 1.343,00</span>
+                  <span class="installments-highlight">ou 10x de <strong>R$ 134,30</strong> sem juros</span>
+                </div>
+                <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Vi%20o%20*Home%20Martino%20Ripado%20c%2F%20LED*%20(Ref%3A%20NM-HOM-01)%20por%20*R%24%201.343%2C00*%20no%20site%20e%20quero%20fechar%20direto%20da%20f%C3%A1brica%20com%20entrega%2048h!" 
+                   class="glass-btn glass-btn-primary" 
+                   target="_blank" 
+                   rel="noopener"
+                   onclick="trackInitiateCheckout('Home Martino Hero Feature', 'NM-HOM-01', 1343.00, 'Hero Bento Showcase')">
+                  <i class="fa-brands fa-whatsapp"></i> Garantir Oferta
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
+    </section>
 
-      <!-- Triangulation Banner Card -->
-      <div class="triangulacao-callout">
-        <div class="callout-content">
-          <div class="callout-icon"><i class="fa-solid fa-bullhorn"></i></div>
-          <div class="callout-text">
-            <h4>Quer mobiliar a casa inteira com preço de pacote de atacado?</h4>
-            <p>Monte sua lista com nossos consultores no WhatsApp e receba um orçamento com desconto progressivo para múltiplos ambientes!</p>
-          </div>
-        </div>
-        <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Tenho%20uma%20lista%20de%20m%C3%B3veis%20para%20minha%20casa%20e%20gostaria%20de%20um%20or%C3%A7amento%20com%20desconto%20de%20pacote%20direto%20da%20f%C3%A1brica." 
-           class="glass-btn glass-btn-primary" 
-           target="_blank" 
-           rel="noopener"
-           onclick="trackInitiateCheckout('Pacote Casa Completa Atacado', 'NM-PACOTE-00', 0, 'Triangulacao Callout')">
-          <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento Casa Completa
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PRODUCT CATALOG WITH TRACKING & PIXEL      -->
-  <!-- ========================================== -->
-  <section class="section-catalogo" id="catalogo">
-    <div class="container">
-      
-      <div class="section-header text-center">
-        <div class="section-tag-badge"><i class="fa-solid fa-boxes-stacked"></i> VITRINE ONLINE ATIVA</div>
-        <h2 class="section-heading">Catálogo de Móveis & Eletro <span class="gradient-gold-text">Direto da Fábrica</span></h2>
-        <p class="section-subheading">
-          Clique no produto para ver detalhes técnicos ou iniciar o pedido instantâneo pelo WhatsApp com rastreamento de lote e entrega prioritária.
-        </p>
-      </div>
-
-      <!-- Search & Category Filters (Stitch Style) -->
-      <div class="catalog-controls">
-        <div class="search-input-wrapper">
-          <i class="fa-solid fa-magnifying-glass search-icon"></i>
-          <input type="text" id="catalogSearch" placeholder="Buscar por modelo, móvel, eletro ou marca..." aria-label="Buscar produtos">
+    <!-- ========================================== -->
+    <!-- HOW DIRECT FACTORY TRIANGULATION WORKS     -->
+    <!-- ========================================== -->
+    <section class="section-triangulacao" id="triangulacao">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag-badge"><i class="fa-solid fa-circle-nodes"></i> MODELO OPERACIONAL EXCLUSIVO</div>
+          <h2 class="section-heading">Como Funciona a <span class="gradient-gold-text">Triangulação Direto da Fábrica?</span></h2>
+          <p class="section-subheading">
+            Entenda por que a Nunes Móveis consegue oferecer produtos de alto padrão com preços de atacado e entrega expressa em todo o Distrito Federal e Goiás.
+          </p>
         </div>
 
-        <div class="category-tabs" id="categoryTabs">
-          <button class="cat-tab-btn active" data-category="todos">
-            <i class="fa-solid fa-border-all"></i> Todos os Itens
-          </button>
-          <button class="cat-tab-btn" data-category="salas">
-            <i class="fa-solid fa-tv"></i> Salas & Racks
-          </button>
-          <button class="cat-tab-btn" data-category="jantar">
-            <i class="fa-solid fa-utensils"></i> Salas de Jantar
-          </button>
-          <button class="cat-tab-btn" data-category="quartos">
-            <i class="fa-solid fa-bed"></i> Quartos & Colchões
-          </button>
-          <button class="cat-tab-btn" data-category="cozinha">
-            <i class="fa-solid fa-kitchen-set"></i> Cozinha & Eletros
-          </button>
+        <div class="triangulacao-grid">
+          
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon"><i class="fa-solid fa-industry"></i></div>
+            <h3 class="step-title">Conexão com os Fabricantes</h3>
+            <p class="step-text">
+              Eliminamos distribuidores atacadistas intermediários. Conectamos sua compra diretamente aos pólos industriais (Gelius, Demóbile, Plumatex, Gazin).
+            </p>
+            <div class="step-benefit"><i class="fa-solid fa-check"></i> Menor custo por unidade</div>
+          </div>
+
+          <div class="step-card step-card-highlight">
+            <div class="step-badge-save">ECONOMIA REAL</div>
+            <div class="step-number">02</div>
+            <div class="step-icon"><i class="fa-solid fa-percent"></i></div>
+            <h3 class="step-title">Markup Justo e Transparente</h3>
+            <p class="step-text">
+              Em vez das margens de 80% a 120% das lojas de shopping, aplicamos um markup enxuto que viabiliza preços imbatíveis para você mobiliar a casa inteira.
+            </p>
+            <div class="step-benefit"><i class="fa-solid fa-check"></i> Sem taxas ocultas</div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+            <h3 class="step-title">Logística & Montagem 48h</h3>
+            <p class="step-text">
+              O produto sai embalado de fábrica direto para o centro de distribuição regional em Valparaíso de Goiás, sendo entregue e montado com equipe especializada.
+            </p>
+            <div class="step-benefit"><i class="fa-solid fa-check"></i> Zero dor de cabeça</div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="step-title">Nota Fiscal & Garantia</h3>
+            <p class="step-text">
+              Você recebe o produto 100% lacrado, acompanhado de nota fiscal emitida pela Nunes Móveis e garantia legal total contra qualquer defeito.
+            </p>
+            <div class="step-benefit"><i class="fa-solid fa-check"></i> 100% Seguro e Confiável</div>
+          </div>
+
         </div>
+
+        <!-- Triangulation Banner Card -->
+        <div class="triangulacao-callout">
+          <div class="callout-content">
+            <div class="callout-icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <div class="callout-text">
+              <h4>Quer mobiliar a casa inteira com preço de pacote de atacado?</h4>
+              <p>Monte sua lista com nossos consultores no WhatsApp e receba um orçamento com desconto progressivo para múltiplos ambientes!</p>
+            </div>
+          </div>
+          <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Tenho%20uma%20lista%20de%20m%C3%B3veis%20para%20minha%20casa%20e%20gostaria%20de%20um%20or%C3%A7amento%20com%20desconto%20de%20pacote%20direto%20da%20f%C3%A1brica." 
+             class="glass-btn glass-btn-primary" 
+             target="_blank" 
+             rel="noopener"
+             onclick="trackInitiateCheckout('Pacote Casa Completa Atacado', 'NM-PACOTE-00', 0, 'Triangulacao Callout')">
+            <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento Casa Completa
+          </a>
+        </div>
+
       </div>
+    </section>
 
-      <!-- Product Cards Grid -->
-      <div class="products-grid" id="productsGrid">
+    <!-- ========================================== -->
+    <!-- PRODUCT CATALOG WITH TRACKING & PIXEL      -->
+    <!-- ========================================== -->
+    <section class="section-catalogo" id="catalogo">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag-badge"><i class="fa-solid fa-boxes-stacked"></i> VITRINE ONLINE ATIVA</div>
+          <h2 class="section-heading">Catálogo de Móveis & Eletro <span class="gradient-gold-text">Direto da Fábrica</span></h2>
+          <p class="section-subheading">
+            Clique no produto para ver detalhes técnicos ou iniciar o pedido instantâneo pelo WhatsApp com rastreamento de lote e entrega prioritária.
+          </p>
+        </div>
 
-        <!-- Produto 1: Home Martino -->
-        <article class="product-card" data-category="salas" data-sku="NM-HOM-01" data-name="Home Martino Ripado com LED" data-price="1343.00">
-          <div class="product-badge"><i class="fa-solid fa-star"></i> Mais Vendido</div>
-          <div class="product-image-container">
-            <img src="fotos/home-martino.jpg" alt="Home Martino Ripado com LED Nunes Móveis" class="product-img" loading="lazy">
-            <div class="product-overlay-actions">
-              <button class="quick-view-btn" onclick="openProductModal('NM-HOM-01')">
-                <i class="fa-solid fa-eye"></i> Ver Detalhes
-              </button>
-            </div>
+        <!-- Search & Category Filters (Stitch Style) -->
+        <div class="catalog-controls">
+          <div class="search-input-wrapper">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="catalogSearch" placeholder="Buscar por modelo, móvel, eletro ou marca..." aria-label="Buscar produtos">
           </div>
-          <div class="product-info">
-            <div class="product-meta-row">
-              <span class="product-sku">SKU: NM-HOM-01</span>
-              <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Fábrica</span>
-            </div>
-            <h3 class="product-title">Home Martino Ripado c/ LED</h3>
-            <p class="product-summary">Painel ripado decorativo, apliques em MDF nobre e prateleira de vidro com LED integrado para TVs até 75".</p>
-            <div class="product-pricing">
-              <span class="price-from">De R$ 1.690,00</span>
-              <div class="price-current-row">
-                <span class="price-current">R$ 1.343,00</span>
-                <span class="price-cash-badge">à vista no Pix</span>
+
+          <div class="category-tabs" id="categoryTabs">
+            <button class="cat-tab-btn active" data-category="todos">
+              <i class="fa-solid fa-border-all"></i> Todos os Itens
+            </button>
+            <button class="cat-tab-btn" data-category="salas">
+              <i class="fa-solid fa-tv"></i> Salas & Racks
+            </button>
+            <button class="cat-tab-btn" data-category="jantar">
+              <i class="fa-solid fa-utensils"></i> Salas de Jantar
+            </button>
+            <button class="cat-tab-btn" data-category="quartos">
+              <i class="fa-solid fa-bed"></i> Quartos & Colchões
+            </button>
+            <button class="cat-tab-btn" data-category="cozinha">
+              <i class="fa-solid fa-kitchen-set"></i> Cozinha & Eletros
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div class="products-grid" id="productsGrid">
+
+          <!-- Produto 1: Home Martino -->
+          <article class="product-card" data-category="salas" data-sku="NM-HOM-01" data-name="Home Martino Ripado com LED" data-price="1343.00">
+            <div class="product-badge"><i class="fa-solid fa-star"></i> Mais Vendido</div>
+            <div class="product-image-container">
+              <img src="fotos/home-martino.jpg" alt="Home Martino Ripado com LED Nunes Móveis" class="product-img" loading="lazy" width="300" height="270" decoding="async">
+              <div class="product-overlay-actions">
+                <button class="quick-view-btn" onclick="openProductModal('NM-HOM-01')">
+                  <i class="fa-solid fa-eye"></i> Ver Detalhes
+                </button>
               </div>
-              <span class="price-installments">ou <strong>10x de R$ 134,30</strong> sem juros</span>
             </div>
-            <div class="product-card-actions">
-              <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20comprar%20o%20*Home%20Martino%20Ripado%20c%2F%20LED*%20(Ref%3A%20NM-HOM-01)%20por%20*R%24%201.343%2C00*%20(ou%2010x%20de%20R%24%20134%2C30)%20direto%20da%20f%C3%A1brica.%20Gostaria%20de%20consultar%20frete%20e%20montagem!" 
-                 class="glass-btn glass-btn-whatsapp w-full" 
-                 target="_blank" 
-                 rel="noopener"
-                 onclick="trackInitiateCheckout('Home Martino Ripado', 'NM-HOM-01', 1343.00, 'Card WhatsApp')">
-                <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Produto 2: Mesa Fiorença + Cadeiras Sena -->
-        <article class="product-card" data-category="jantar" data-sku="NM-JNT-02" data-name="Conjunto Mesa Fiorença + Cadeiras Sena" data-price="2085.00">
-          <div class="product-badge badge-premium"><i class="fa-solid fa-crown"></i> Luxo Madeira</div>
-          <div class="product-image-container">
-            <img src="fotos/mesa-fiorenca-sena.jpg" alt="Mesa Fiorença 1,20x0,90m com Cadeiras Sena Nunes Móveis" class="product-img" loading="lazy">
-            <div class="product-overlay-actions">
-              <button class="quick-view-btn" onclick="openProductModal('NM-JNT-02')">
-                <i class="fa-solid fa-eye"></i> Ver Detalhes
-              </button>
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product-meta-row">
-              <span class="product-sku">SKU: NM-JNT-02</span>
-              <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Fábrica</span>
-            </div>
-            <h3 class="product-title">Mesa Fiorença + Cadeiras Sena</h3>
-            <p class="product-summary">Base em madeira maciça nobre acabamento nogueira, tampo laminado cinamomo 120x90cm e 4 cadeiras com tela sextavada.</p>
-            <div class="product-pricing">
-              <span class="price-from">De R$ 2.590,00</span>
-              <div class="price-current-row">
-                <span class="price-current">R$ 2.085,00</span>
-                <span class="price-cash-badge">à vista no Pix</span>
+            <div class="product-info">
+              <div class="product-meta-row">
+                <span class="product-sku">SKU: NM-HOM-01</span>
+                <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Fábrica</span>
               </div>
-              <span class="price-installments">ou <strong>10x de R$ 208,50</strong> sem juros</span>
-            </div>
-            <div class="product-card-actions">
-              <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20aproveitar%20a%20promo%C3%A7%C3%A3o%20da%20*Mesa%20Fioren%C3%A7a%20%2B%204%20Cadeiras%20Sena*%20(Ref%3A%20NM-JNT-02)%20por%20*R%24%202.085%2C00*%20(ou%2010x%20de%20R%24%20208%2C50)%20direto%20da%20f%C3%A1brica!" 
-                 class="glass-btn glass-btn-whatsapp w-full" 
-                 target="_blank" 
-                 rel="noopener"
-                 onclick="trackInitiateCheckout('Mesa Fiorença + Cadeiras Sena', 'NM-JNT-02', 2085.00, 'Card WhatsApp')">
-                <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Produto 3: Colchão Plumatex Concept Blue -->
-        <article class="product-card" data-category="quartos" data-sku="NM-COL-03" data-name="Colchão Plumatex Concept Blue Molas Ensacadas" data-price="949.99">
-          <div class="product-badge"><i class="fa-solid fa-moon"></i> Conforto Supremo</div>
-          <div class="product-image-container">
-            <img src="fotos/colchao-concept-blue.jpg" alt="Colchão Box Plumatex Concept Blue Molas Ensacadas" class="product-img" loading="lazy">
-            <div class="product-overlay-actions">
-              <button class="quick-view-btn" onclick="openProductModal('NM-COL-03')">
-                <i class="fa-solid fa-eye"></i> Ver Detalhes
-              </button>
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product-meta-row">
-              <span class="product-sku">SKU: NM-COL-03</span>
-              <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Plumatex</span>
-            </div>
-            <h3 class="product-title">Colchão Box Concept Blue Plumatex</h3>
-            <p class="product-summary">Molas ensacadas individuais (sem transferência de movimento), espuma D-28, malha suave e base antiderrapante.</p>
-            <div class="product-pricing">
-              <span class="price-from">De R$ 1.250,00</span>
-              <div class="price-current-row">
-                <span class="price-current">R$ 949,99</span>
-                <span class="price-cash-badge">à vista no Pix</span>
+              <h3 class="product-title">Home Martino Ripado c/ LED</h3>
+              <p class="product-summary">Painel ripado decorativo, apliques em MDF nobre e prateleira de vidro com LED integrado para TVs até 75".</p>
+              <div class="product-pricing">
+                <span class="price-from">De R$ 1.690,00</span>
+                <div class="price-current-row">
+                  <span class="price-current">R$ 1.343,00</span>
+                  <span class="price-cash-badge">à vista no Pix</span>
+                </div>
+                <span class="price-installments">ou <strong>10x de R$ 134,30</strong> sem juros</span>
               </div>
-              <span class="price-installments">ou <strong>10x de R$ 95,00</strong> sem juros</span>
-            </div>
-            <div class="product-card-actions">
-              <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20o%20*Colch%C3%A3o%20Concept%20Blue%20Plumatex%20Molas%20Ensacadas*%20(Ref%3A%20NM-COL-03)%20por%20*R%24%20949%2C99*%20direto%20da%20f%C3%A1brica.%20Consultar%20entrega%2048h!" 
-                 class="glass-btn glass-btn-whatsapp w-full" 
-                 target="_blank" 
-                 rel="noopener"
-                 onclick="trackInitiateCheckout('Colchao Concept Blue Plumatex', 'NM-COL-03', 949.99, 'Card WhatsApp')">
-                <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Produto 4: Bancada Requinte Gelius -->
-        <article class="product-card" data-category="salas" data-sku="NM-BAN-04" data-name="Bancada Rack Requinte Gelius com LED" data-price="899.00">
-          <div class="product-badge badge-accent"><i class="fa-solid fa-sparkles"></i> Lançamento Gelius</div>
-          <div class="product-image-container">
-            <img src="fotos/bancada-requinte.jpg" alt="Bancada Requinte Gelius com iluminação LED" class="product-img" loading="lazy">
-            <div class="product-overlay-actions">
-              <button class="quick-view-btn" onclick="openProductModal('NM-BAN-04')">
-                <i class="fa-solid fa-eye"></i> Ver Detalhes
-              </button>
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product-meta-row">
-              <span class="product-sku">SKU: NM-BAN-04</span>
-              <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Gelius</span>
-            </div>
-            <h3 class="product-title">Bancada Requinte Gelius c/ LED</h3>
-            <p class="product-summary">Design sofisticado com pés em madeira, 3 gavetões corrediças telescópicas e nicho com iluminação quente em LED.</p>
-            <div class="product-pricing">
-              <span class="price-from">De R$ 1.150,00</span>
-              <div class="price-current-row">
-                <span class="price-current">R$ 899,00</span>
-                <span class="price-cash-badge">à vista no Pix</span>
+              <div class="product-card-actions">
+                <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20comprar%20o%20*Home%20Martino%20Ripado%20c%2F%20LED*%20(Ref%3A%20NM-HOM-01)%20por%20*R%24%201.343%2C00*%20(ou%2010x%20de%20R%24%20134%2C30)%20direto%20da%20f%C3%A1brica.%20Gostaria%20de%20consultar%20frete%20e%20montagem!" 
+                   class="glass-btn glass-btn-whatsapp w-full" 
+                   target="_blank" 
+                   rel="noopener"
+                   onclick="trackInitiateCheckout('Home Martino Ripado', 'NM-HOM-01', 1343.00, 'Card WhatsApp')">
+                  <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
+                </a>
               </div>
-              <span class="price-installments">ou <strong>10x de R$ 89,90</strong> sem juros</span>
             </div>
-            <div class="product-card-actions">
-              <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20comprar%20a%20*Bancada%20Requinte%20Gelius*%20(Ref%3A%20NM-BAN-04)%20por%20*R%24%20899%2C00*%20(ou%2010x%20de%20R%24%2089%2C90)%20direto%20da%20f%C3%A1brica!" 
-                 class="glass-btn glass-btn-whatsapp w-full" 
-                 target="_blank" 
-                 rel="noopener"
-                 onclick="trackInitiateCheckout('Bancada Requinte Gelius', 'NM-BAN-04', 899.00, 'Card WhatsApp')">
-                <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
-              </a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <!-- Produto 5: Colchão Gazin Espuma Supreme -->
-        <article class="product-card" data-category="quartos" data-sku="NM-COL-05" data-name="Colchão Gazin Espuma Supreme Casal" data-price="789.97">
-          <div class="product-badge"><i class="fa-solid fa-award"></i> Certificado Inmetro</div>
-          <div class="product-image-container">
-            <img src="fotos/colchao-gazin-supreme.jpg" alt="Colchão Gazin Espuma Supreme Casal 138x188" class="product-img" loading="lazy">
-            <div class="product-overlay-actions">
-              <button class="quick-view-btn" onclick="openProductModal('NM-COL-05')">
-                <i class="fa-solid fa-eye"></i> Ver Detalhes
-              </button>
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product-meta-row">
-              <span class="product-sku">SKU: NM-COL-05</span>
-              <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Gazin</span>
-            </div>
-            <h3 class="product-title">Colchão Gazin Espuma Supreme</h3>
-            <p class="product-summary">Dimensões 1380 x 1880 x 210mm (Casal padrão), espuma de altíssima densidade e durabilidade com tecido floral requintado.</p>
-            <div class="product-pricing">
-              <span class="price-from">De R$ 990,00</span>
-              <div class="price-current-row">
-                <span class="price-current">R$ 789,97</span>
-                <span class="price-cash-badge">à vista no Pix</span>
+          <!-- Produto 2: Mesa Fiorença + Cadeiras Sena -->
+          <article class="product-card" data-category="jantar" data-sku="NM-JNT-02" data-name="Conjunto Mesa Fiorença + Cadeiras Sena" data-price="2085.00">
+            <div class="product-badge badge-premium"><i class="fa-solid fa-crown"></i> Luxo Madeira</div>
+            <div class="product-image-container">
+              <img src="fotos/mesa-fiorenca-sena.jpg" alt="Mesa Fiorença 1,20x0,90m com Cadeiras Sena Nunes Móveis" class="product-img" loading="lazy" width="300" height="270" decoding="async">
+              <div class="product-overlay-actions">
+                <button class="quick-view-btn" onclick="openProductModal('NM-JNT-02')">
+                  <i class="fa-solid fa-eye"></i> Ver Detalhes
+                </button>
               </div>
-              <span class="price-installments">ou <strong>10x de R$ 78,99</strong> sem juros</span>
             </div>
-            <div class="product-card-actions">
-              <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Tenho%20interesse%20no%20*Colch%C3%A3o%20Gazin%20Espuma%20Supreme*%20(Ref%3A%20NM-COL-05)%20por%20*R%24%20789%2C97*%20(ou%2010x%20de%20R%24%2078%2C99)%20direto%20da%20f%C3%A1brica!" 
-                 class="glass-btn glass-btn-whatsapp w-full" 
-                 target="_blank" 
-                 rel="noopener"
-                 onclick="trackInitiateCheckout('Colchao Gazin Supreme', 'NM-COL-05', 789.97, 'Card WhatsApp')">
+            <div class="product-info">
+              <div class="product-meta-row">
+                <span class="product-sku">SKU: NM-JNT-02</span>
+                <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Fábrica</span>
+              </div>
+              <h3 class="product-title">Mesa Fiorença + Cadeiras Sena</h3>
+              <p class="product-summary">Base em madeira maciça nobre acabamento nogueira, tampo laminado cinamomo 120x90cm e 4 cadeiras com tela sextavada.</p>
+              <div class="product-pricing">
+                <span class="price-from">De R$ 2.590,00</span>
+                <div class="price-current-row">
+                  <span class="price-current">R$ 2.085,00</span>
+                  <span class="price-cash-badge">à vista no Pix</span>
+                </div>
+                <span class="price-installments">ou <strong>10x de R$ 208,50</strong> sem juros</span>
+              </div>
+              <div class="product-card-actions">
+                <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20aproveitar%20a%20promo%C3%A7%C3%A3o%20da%20*Mesa%20Fioren%C3%A7a%20%2B%204%20Cadeiras%20Sena*%20(Ref%3A%20NM-JNT-02)%20por%20*R%24%202.085%2C00*%20(ou%2010x%20de%20R%24%20208%2C50)%20direto%20da%20f%C3%A1brica!" 
+                   class="glass-btn glass-btn-whatsapp w-full" 
+                   target="_blank" 
+                   rel="noopener"
+                   onclick="trackInitiateCheckout('Mesa Fiorença + Cadeiras Sena', 'NM-JNT-02', 2085.00, 'Card WhatsApp')">
+                  <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Produto 3: Colchão Plumatex Concept Blue -->
+          <article class="product-card" data-category="quartos" data-sku="NM-COL-03" data-name="Colchão Plumatex Concept Blue Molas Ensacadas" data-price="949.99">
+            <div class="product-badge"><i class="fa-solid fa-moon"></i> Conforto Supremo</div>
+            <div class="product-image-container">
+              <img src="fotos/colchao-concept-blue.jpg" alt="Colchão Box Plumatex Concept Blue Molas Ensacadas" class="product-img" loading="lazy" width="300" height="270" decoding="async">
+              <div class="product-overlay-actions">
+                <button class="quick-view-btn" onclick="openProductModal('NM-COL-03')">
+                  <i class="fa-solid fa-eye"></i> Ver Detalhes
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-meta-row">
+                <span class="product-sku">SKU: NM-COL-03</span>
+                <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Plumatex</span>
+              </div>
+              <h3 class="product-title">Colchão Box Concept Blue Plumatex</h3>
+              <p class="product-summary">Molas ensacadas individuais (sem transferência de movimento), espuma D-28, malha suave e base antiderrapante.</p>
+              <div class="product-pricing">
+                <span class="price-from">De R$ 1.250,00</span>
+                <div class="price-current-row">
+                  <span class="price-current">R$ 949,99</span>
+                  <span class="price-cash-badge">à vista no Pix</span>
+                </div>
+                <span class="price-installments">ou <strong>10x de R$ 95,00</strong> sem juros</span>
+              </div>
+              <div class="product-card-actions">
+                <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20o%20*Colch%C3%A3o%20Concept%20Blue%20Plumatex%20Molas%20Ensacadas*%20(Ref%3A%20NM-COL-03)%20por%20*R%24%20949%2C99*%20direto%20da%20f%C3%A1brica.%20Consultar%20entrega%2048h!" 
+                   class="glass-btn glass-btn-whatsapp w-full" 
+                   target="_blank" 
+                   rel="noopener"
+                   onclick="trackInitiateCheckout('Colchao Concept Blue Plumatex', 'NM-COL-03', 949.99, 'Card WhatsApp')">
+                  <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Produto 4: Bancada Requinte Gelius -->
+          <article class="product-card" data-category="salas" data-sku="NM-BAN-04" data-name="Bancada Rack Requinte Gelius com LED" data-price="899.00">
+            <div class="product-badge badge-accent"><i class="fa-solid fa-sparkles"></i> Lançamento Gelius</div>
+            <div class="product-image-container">
+              <img src="fotos/bancada-requinte.jpg" alt="Bancada Requinte Gelius com iluminação LED" class="product-img" loading="lazy" width="300" height="270" decoding="async">
+              <div class="product-overlay-actions">
+                <button class="quick-view-btn" onclick="openProductModal('NM-BAN-04')">
+                  <i class="fa-solid fa-eye"></i> Ver Detalhes
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-meta-row">
+                <span class="product-sku">SKU: NM-BAN-04</span>
+                <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Gelius</span>
+              </div>
+              <h3 class="product-title">Bancada Requinte Gelius c/ LED</h3>
+              <p class="product-summary">Design sofisticado com pés em madeira, 3 gavetões corrediças telescópicas e nicho com iluminação quente em LED.</p>
+              <div class="product-pricing">
+                <span class="price-from">De R$ 1.150,00</span>
+                <div class="price-current-row">
+                  <span class="price-current">R$ 899,00</span>
+                  <span class="price-cash-badge">à vista no Pix</span>
+                </div>
+                <span class="price-installments">ou <strong>10x de R$ 89,90</strong> sem juros</span>
+              </div>
+              <div class="product-card-actions">
+                <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Quero%20comprar%20a%20*Bancada%20Requinte%20Gelius*%20(Ref%3A%20NM-BAN-04)%20por%20*R%24%20899%2C00*%20(ou%2010x%20de%20R%24%2089%2C90)%20direto%20da%20f%C3%A1brica!" 
+                   class="glass-btn glass-btn-whatsapp w-full" 
+                   target="_blank" 
+                   rel="noopener"
+                   onclick="trackInitiateCheckout('Bancada Requinte Gelius', 'NM-BAN-04', 899.00, 'Card WhatsApp')">
+                  <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Produto 5: Colchão Gazin Espuma Supreme -->
+          <article class="product-card" data-category="quartos" data-sku="NM-COL-05" data-name="Colchão Gazin Espuma Supreme Casal" data-price="789.97">
+            <div class="product-badge"><i class="fa-solid fa-award"></i> Certificado Inmetro</div>
+            <div class="product-image-container">
+              <img src="fotos/colchao-gazin-supreme.jpg" alt="Colchão Gazin Espuma Supreme Casal 138x188" class="product-img" loading="lazy" width="300" height="270" decoding="async">
+              <div class="product-overlay-actions">
+                <button class="quick-view-btn" onclick="openProductModal('NM-COL-05')">
+                  <i class="fa-solid fa-eye"></i> Ver Detalhes
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-meta-row">
+                <span class="product-sku">SKU: NM-COL-05</span>
+                <span class="product-tag-factory"><i class="fa-solid fa-industry"></i> Gazin</span>
+              </div>
+              <h3 class="product-title">Colchão Gazin Espuma Supreme</h3>
+              <p class="product-summary">Dimensões 1380 x 1880 x 210mm (Casal padrão), espuma de altíssima densidade e durabilidade com tecido floral requintado.</p>
+              <div class="product-pricing">
+                <span class="price-from">De R$ 990,00</span>
+                <div class="price-current-row">
+                  <span class="price-current">R$ 789,97</span>
+                  <span class="price-cash-badge">à vista no Pix</span>
+                </div>
+                <span class="price-installments">ou <strong>10x de R$ 78,99</strong> sem juros</span>
+              </div>
+              <div class="product-card-actions">
+                <a href="https://wa.me/5561981889061?text=Ol%C3%A1%2C%20Nunes%20M%C3%B3veis!%20Tenho%20interesse%20no%20*Colch%C3%A3o%20Gazin%20Espuma%20Supreme*%20(Ref%3A%20NM-COL-05)%20por%20*R%24%20789%2C97*%20(ou%2010x%20de%20R%24%2078%2C99)%20direto%20da%20f%C3%A1brica!" 
+                   class="glass-btn glass-btn-whatsapp w-full" 
+                   target="_blank" 
+                   rel="noopener"
+                   onclick="trackInitiateCheckout('Colchao Gazin Supreme', 'NM-COL-05', 789.97, 'Card WhatsApp')">
                 <i class="fa-brands fa-whatsapp"></i> Comprar pelo WhatsApp
               </a>
             </div>
@@ -752,7 +925,7 @@
         <article class="product-card" data-category="jantar" data-sku="NM-CAD-06" data-name="Cadeira Stela Fam 3 Veludo Luxo" data-price="180.00">
           <div class="product-badge badge-popular"><i class="fa-solid fa-fire"></i> Mais Procurada</div>
           <div class="product-image-container">
-            <img src="fotos/cadeira-stela.jpg" alt="Cadeira Stela Fam 3 Veludo com Puxador" class="product-img" loading="lazy">
+            <img src="fotos/cadeira-stela.jpg" alt="Cadeira Stela Fam 3 Veludo com Puxador" class="product-img" loading="lazy" width="300" height="270" decoding="async">
             <div class="product-overlay-actions">
               <button class="quick-view-btn" onclick="openProductModal('NM-CAD-06')">
                 <i class="fa-solid fa-eye"></i> Ver Detalhes
@@ -790,7 +963,7 @@
         <article class="product-card" data-category="cozinha" data-sku="NM-ELE-07" data-name="Tanquinho Suggar Eco 15KG Lavadora" data-price="578.00">
           <div class="product-badge"><i class="fa-solid fa-droplet"></i> Alta Economia</div>
           <div class="product-image-container">
-            <img src="fotos/tanquinho-suggar.jpg" alt="Tanquinho Lavadora Suggar Eco 15KG" class="product-img" loading="lazy">
+            <img src="fotos/tanquinho-suggar.jpg" alt="Tanquinho Lavadora Suggar Eco 15KG" class="product-img" loading="lazy" width="300" height="270" decoding="async">
             <div class="product-overlay-actions">
               <button class="quick-view-btn" onclick="openProductModal('NM-ELE-07')">
                 <i class="fa-solid fa-eye"></i> Ver Detalhes
@@ -828,7 +1001,7 @@
         <article class="product-card" data-category="cozinha" data-sku="NM-COZ-08" data-name="Cozinha Compacta Pitaya 7 Portas Demóbile" data-price="761.00">
           <div class="product-badge"><i class="fa-solid fa-kitchen-set"></i> Completa</div>
           <div class="product-image-container">
-            <img src="fotos/cozinha-eletros.jpg" alt="Cozinha Compacta e Eletrodomésticos Nunes Móveis" class="product-img" loading="lazy">
+            <img src="fotos/cozinha-eletros.jpg" alt="Cozinha Compacta e Eletrodomésticos Nunes Móveis" class="product-img" loading="lazy" width="300" height="270" decoding="async">
             <div class="product-overlay-actions">
               <button class="quick-view-btn" onclick="openProductModal('NM-COZ-08')">
                 <i class="fa-solid fa-eye"></i> Ver Detalhes
@@ -1299,6 +1472,7 @@
       </div>
     </div>
   </section>
+  </main>
 
   <!-- ========================================== -->
   <!-- FOOTER                                     -->
@@ -1308,7 +1482,7 @@
       
       <div class="footer-col brand-col">
         <div class="footer-logo">
-          <img src="fotos/logo.jpg" alt="Logo Nunes Móveis e Eletro" class="footer-logo-img">
+          <img src="fotos/logo.jpg" alt="Logo Nunes Móveis e Eletro" class="footer-logo-img" width="42" height="42" loading="lazy" decoding="async">
           <div>
             <span class="footer-brand-name">NUNES</span>
             <span class="footer-brand-sub">Móveis e Eletro</span>
@@ -1318,13 +1492,13 @@
           Sua casa merece esse toque de requinte! Especialistas em triangulação de móveis direto da fábrica, levando qualidade e economia para Valparaíso de Goiás e Distrito Federal.
         </p>
         <div class="footer-social">
-          <a href="https://www.instagram.com/nunes_moveis_eletro/" target="_blank" rel="noopener" aria-label="Instagram">
+          <a href="https://www.instagram.com/nunes_moveis_eletro/" target="_blank" rel="noopener" aria-label="Instagram da Nunes Móveis">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://wa.me/5561981889061" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <a href="https://wa.me/5561981889061" target="_blank" rel="noopener" aria-label="WhatsApp da Nunes Móveis">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
-          <a href="https://maps.google.com/?q=-16.0738357,-47.9806324" target="_blank" rel="noopener" aria-label="Google Maps">
+          <a href="https://maps.google.com/?q=-16.0738357,-47.9806324" target="_blank" rel="noopener" aria-label="Google Maps da Loja">
             <i class="fa-solid fa-location-dot"></i>
           </a>
         </div>
@@ -1399,9 +1573,9 @@
   <!-- ========================================== -->
   <!-- PRODUCT DETAILS MODAL (QUICK VIEW)        -->
   <!-- ========================================== -->
-  <div class="product-modal-backdrop" id="productModal">
+  <div class="product-modal-backdrop" id="productModal" role="dialog" aria-modal="true" aria-label="Detalhes do Produto">
     <div class="product-modal-content glass-panel">
-      <button class="modal-close-btn" onclick="closeProductModal()">&times;</button>
+      <button class="modal-close-btn" onclick="closeProductModal()" aria-label="Fechar Modal">&times;</button>
       <div class="modal-body" id="modalBody">
         <!-- Renderizado dinamicamente via script.js -->
       </div>

@@ -1,0 +1,50 @@
+# ==============================================================================
+# ROBOTS.TXT - NUNES MÓVEIS E ELETRO
+# Estratégia Avançada de Rastreamento Orgânico & Otimização para Modelos LLM (GEO)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /fotos/
+Allow: /style.css
+Allow: /script.js
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /sitemap.xml
+Disallow: /*?*catalogSearch=
+Disallow: /*?*utm_*=
+
+# ==============================================================================
+# PERMISSÕES EXPLÍCITAS PARA RASTREADORES DE IA & BUSCA GENERATIVA (LLMs)
+# Permite que assistentes como ChatGPT, Perplexity, Claude e Gemini indexem
+# com máxima precisão o modelo de triangulação, catálogo, preços e WhatsApp.
+# ==============================================================================
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap Oficial Canônico
+Sitemap: https://nunesmoveis.vercel.app/sitemap.xml

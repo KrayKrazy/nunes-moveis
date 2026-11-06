@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página Inicial Canônica (Alta Prioridade) -->
+  <url>
+    <loc>https://nunesmoveis.vercel.app/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/hero-banner.jpg</image:loc>
+      <image:title>Nunes Móveis e Eletro - A Evolução do Seu Lar Começa Aqui</image:title>
+      <image:caption>Móveis nobres direto da fábrica com preços de atacado e entrega expressa no DF e Goiás</image:caption>
+      <image:geo_location>Valparaíso de Goiás, Brasil</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/home-martino.jpg</image:loc>
+      <image:title>Home Martino Ripado com Iluminação LED - Nunes Móveis</image:title>
+      <image:caption>Home para TV até 75 polegadas com painel ripado decorativo e apliques em MDF</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/mesa-fiorenca-sena.jpg</image:loc>
+      <image:title>Mesa Fiorença 1,20x0,90m e Cadeiras Sena Nogueira</image:title>
+      <image:caption>Conjunto sala de jantar com base em madeira maciça e cadeiras com tela sextavada</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/colchao-concept-blue.jpg</image:loc>
+      <image:title>Colchão Box Casal Concept Blue Plumatex Molas Ensacadas</image:title>
+      <image:caption>Colchão casal de molas ensacadas individuais e espuma ortopédica D-28</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/bancada-requinte.jpg</image:loc>
+      <image:title>Bancada Requinte Gelius com Gavetas e Iluminação LED</image:title>
+      <image:caption>Rack bancada moderno com acabamento em nogueira e pés maciços</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/colchao-gazin-supreme.jpg</image:loc>
+      <image:title>Colchão Gazin Espuma Supreme Casal 138x188</image:title>
+      <image:caption>Colchão de espuma de alta resiliência e suporte ortopédico certificado pelo Inmetro</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/cadeira-stela.jpg</image:loc>
+      <image:title>Cadeira Stela Fam 3 Veludo com Puxador</image:title>
+      <image:caption>Cadeira de sala de jantar em veludo cinza matelassê com puxador superior</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/tanquinho-suggar.jpg</image:loc>
+      <image:title>Tanquinho Lavadora Suggar Eco 15KG</image:title>
+      <image:caption>Lavadora semiautomática 15kg com 6 programas e filtro de fiapos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nunesmoveis.vercel.app/fotos/cozinha-eletros.jpg</image:loc>
+      <image:title>Cozinha Compacta Pitaya 7 Portas Demóbile</image:title>
+      <image:caption>Cozinha modulada compacta 7 portas e 2 gavetas com nicho para micro-ondas</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Seções Semânticas para Indexação de Deep Links -->
+  <url>
+    <loc>https://nunesmoveis.vercel.app/#catalogo</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nunesmoveis.vercel.app/#triangulacao</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://nunesmoveis.vercel.app/#simulador</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://nunesmoveis.vercel.app/#depoimentos</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nunesmoveis.vercel.app/#localizacao</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://nunesmoveis.vercel.app/#faq</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

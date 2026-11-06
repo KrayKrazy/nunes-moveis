@@ -1,0 +1,122 @@
+# Nunes Móveis e Eletro - Base de Conhecimento Completa para LLMs e Agentes de IA
+
+Este documento contém todos os dados estruturados sobre a operação da Nunes Móveis e Eletro LTDA, incluindo dados cadastrais, regras de frete e montagem, especificações técnicas detalhadas de cada produto, política de garantia, simulação de crediário e arquitetura de rastreamento.
+
+## 1. Identificação Corporativa & Localização
+- Nome Empresarial: NUNES MOVEIS E ELETRO LTDA
+- CNPJ: 53.844.497/0001-90
+- Nome Fantasia: Nunes Móveis e Eletro
+- Logradouro: Quadra 37, R. Quatorze, lote 10 - loja 02
+- Bairro: Parque Esplanada III
+- Cidade / UF: Valparaíso de Goiás - GO
+- CEP: 72876-337
+- Ponto de Referência: Próximo à Av. Central de Valparaíso
+- Coordenadas Geográficas: -16.0738357 (Latitude), -47.9806324 (Longitude)
+- Canal Principal de Vendas e Suporte: WhatsApp +55 (61) 98188-9061
+- Canal Secundário: WhatsApp +55 (61) 98205-7196
+- Horário de Atendimento: Segunda a Sexta das 08:00 às 18:00 (intervalo 12h-13h) | Sábados das 08:00 às 14:00
+- Classificação Google: 5.0 estrelas com 72 avaliações no Google Meu Negócio
+
+## 2. Modelo de Negócio: Triangulação com Markup
+A empresa conecta compradores residenciais e corporativos do Distrito Federal e Entorno diretamente às indústrias moveleiras parceiras.
+- Eliminação de custos ociosos de grandes armazéns de varejo tradicional.
+- Margem de markup de atacado transparente embutida no preço exibido.
+- Os produtos são faturados com emissão de Nota Fiscal no nome do comprador.
+- Logística ágil: saída do centro de distribuição e entrega montada em até 48 horas úteis.
+
+## 3. Especificações Técnicas de Cada Produto
+
+### Home Martino Ripado c/ LED
+- SKU: NM-HOM-01
+- Categoria: Sala de Estar / Painéis e Racks
+- Fabricante: Gelius / Indústria Parceira
+- Preço à vista Pix: R$ 1.343,00
+- Preço parcelado: 10x de R$ 134,30 sem juros no cartão
+- Preço de tabela comparativo: R$ 1.690,00
+- Dimensões: Largura 2,00m | Altura 1,95m | Profundidade 0,42m
+- Suporte de TV: Até 75 polegadas
+- Características: Painel ripado decorativo com ripas autênticas em MDF, fita LED embutida com tom quente, prateleira superior de 25mm, gaveta com corrediça telescópica e nichos para receptores.
+
+### Conjunto Mesa Fiorença + 4 Cadeiras Sena
+- SKU: NM-JNT-02
+- Categoria: Sala de Jantar
+- Fabricante: Linha Madeira Nobre
+- Preço à vista Pix: R$ 2.085,00
+- Preço parcelado: 10x de R$ 208,50 sem juros no cartão
+- Preço de tabela comparativo: R$ 2.590,00
+- Medidas da Mesa: 1,20m de largura por 0,90m de profundidade, altura 0,78m
+- Tampo: Tampo chanfrado laminado em madeira Cinamomo com bordas arredondadas de alta resistência
+- Base da Mesa: Madeira maciça de reflorestamento tratada contra umidade e pragas
+- Cadeiras Sena: 4 unidades com espaldar em tela sextavada sintética tipo palhinha cor nogueira, assentos estofados com espuma D-26 e tecido em linho rústico impermeabilizado.
+
+### Colchão Box Casal Concept Blue Plumatex
+- SKU: NM-COL-03
+- Categoria: Quartos / Colchões
+- Fabricante: Plumatex Colchões
+- Preço à vista Pix: R$ 949,99
+- Preço parcelado: 10x de R$ 95,00 sem juros no cartão
+- Preço de tabela comparativo: R$ 1.250,00
+- Dimensões: 1,38m x 1,88m x 0,30m (Padrão Casal)
+- Sistema de Molas: Molas ensacadas individuais (Pocket System), onde a pressão sobre uma mola não afeta as molas adjacentes
+- Conforto: Camada superior pillow euro com espuma ortopédica D-28
+- Revestimento: Tecido em malha nobre respirável com bordado contínuo e tratamento anti-ácaro, antifungo e antialérgico
+- Base inferior: Tecido antiderrapante que fixa perfeitamente na base box.
+
+### Bancada Requinte Gelius com Iluminação LED
+- SKU: NM-BAN-04
+- Categoria: Sala de Estar / Racks
+- Fabricante: Gelius Móveis
+- Preço à vista Pix: R$ 899,00
+- Preço parcelado: 10x de R$ 89,90 sem juros no cartão
+- Preço de tabela comparativo: R$ 1.150,00
+- Características: Pés em madeira maciça inclinados em estilo escandinavo, 3 gavetas com puxadores usinados e corrediças metálicas de rolamento suave, nichos decorativos com prateleiras de vidro temperado e fita LED quente inclusa.
+
+### Colchão Gazin Espuma Supreme Casal
+- SKU: NM-COL-05
+- Categoria: Quartos / Colchões de Espuma
+- Fabricante: Gazin Colchões
+- Preço à vista Pix: R$ 789,97
+- Preço parcelado: 10x de R$ 78,99 sem juros no cartão
+- Preço de tabela comparativo: R$ 990,00
+- Dimensões: 1380 x 1880 x 210 mm
+- Certificação: Selo compulsório Inmetro de densidade e durabilidade
+- Design: Tecido superior floral acetinado com faixas laterais em tecido preto reforçado.
+
+### Cadeira Stela Fam 3 Veludo Luxo
+- SKU: NM-CAD-06
+- Categoria: Cadeiras Avulsas e Salas de Jantar
+- Fabricante: Fam 3
+- Preço unitário: R$ 180,00 à vista
+- Preço do Par (Kit 2): R$ 360,00 em até 10x sem juros
+- Acabamento: Tecido veludo cinza padrão H10 com costura matelassê frontal, pés de madeira com sapatas plásticas de proteção de piso e puxador superior ergonômico.
+
+### Tanquinho Lavadora Suggar Eco 15KG
+- SKU: NM-ELE-07
+- Categoria: Eletrodomésticos / Lavanderia
+- Fabricante: Suggar
+- Preço à vista Pix: R$ 578,00
+- Preço parcelado: 10x de R$ 57,80 sem juros no cartão
+- Preço de tabela comparativo: R$ 749,00
+- Capacidade: 15kg de roupas molhadas
+- Funcionalidades: 6 programas de lavagem, batedor gigante no fundo com turbilhonamento vertical, filtro pega-fiapos, timer de 28 minutos com paradas automáticas para molho e selo de eficiência energética Procel A.
+
+### Cozinha Compacta Pitaya 7 Portas Demóbile
+- SKU: NM-COZ-08
+- Categoria: Cozinha Modulada
+- Fabricante: Demóbile Móveis
+- Preço à vista Pix: R$ 761,00
+- Preço parcelado: 10x de R$ 76,10 sem juros no cartão
+- Preço de tabela comparativo: R$ 980,00
+- Estrutura: 7 portas, 2 gavetas com corrediças metálicas, nicho decorativo superior e espaço planejado para micro-ondas ou forno de bancada. Cor: Cinamomo / Off White.
+
+## 4. Política de Montagem, Entrega e Prazos
+- Prazo de Entrega: Até 48 horas úteis após a confirmação do pedido no WhatsApp para as cidades do raio de atuação direta.
+- Montagem Profissional: Equipe própria e capacitada da Nunes Móveis realiza a montagem no local indicado pelo cliente.
+- Custo de Montagem: Gratuita para pacotes promocionais e combos de ambientes; sob consulta prévia para itens avulsos com valor promocional.
+- Regiões Atendidas:
+  * Região Metropolitana Sul de Brasília / Entorno Sul: Valparaíso de Goiás, Cidade Ocidental, Luziânia, Novo Gama, Céu Azul, Jardim Ingá.
+  * Regiões Administrativas do DF: Santa Maria, Gama, Ceilândia, Samambaia, Taguatinga, Recanto das Emas, Riacho Fundo, Guará, Águas Claras, Vicente Pires, Plano Piloto, Sobradinho e Planaltina.
+
+## 5. Garantia e Devolução
+- Todos os produtos possuem garantia legal de 90 dias contra defeitos de fabricação conforme o Código de Defesa do Consumidor (CDC), complementada pela garantia do próprio fabricante (1 ano para itens específicos de molas e estruturas).
+- Troca imediata na caixa em caso de avarias de transporte identificadas no momento do descarregamento pela equipe própria de entrega.

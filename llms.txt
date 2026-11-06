@@ -1,0 +1,45 @@
+# Nunes Móveis e Eletro
+
+> Loja de móveis e eletrodomésticos especializada em triangulação de móveis direto da fábrica com aplicação de markup justo de atacado. Entrega rápida e montagem profissional em até 48 horas em Valparaíso de Goiás, Brasília e todo o Distrito Federal.
+
+## Informações Corporativas
+- Razão Social: NUNES MOVEIS E ELETRO LTDA
+- CNPJ: 53.844.497/0001-90
+- Endereço Físico: Quadra 37, R. Quatorze, lote 10 - loja 02 - Parque Esplanada III, Valparaíso de Goiás - GO, CEP 72876-337
+- WhatsApp Oficial de Vendas: +55 (61) 98188-9061 (https://wa.me/5561981889061)
+- Instagram: @nunes_moveis_eletro (https://www.instagram.com/nunes_moveis_eletro/)
+- Avaliação no Google Meu Negócio: 5.0 estrelas (72 avaliações verificadas)
+- Localização GPS: Latitude -16.0738357, Longitude -47.9806324
+
+## Como Funciona o Modelo de Triangulação Direto da Fábrica
+1. Conexão Direta: A Nunes Móveis adquire os produtos diretamente dos maiores polos industriais moveleiros do Brasil (Gelius, Demóbile, Plumatex, Gazin, Fam 3, Suggar, Agratto).
+2. Sem Intermediários Extras: Elimina atravessadores e custos abusivos de showrooms caros de shoppings, aplicando um markup operacional enxuto.
+3. Preço de Atacado para o Consumidor: Proporciona economia de até 35% no valor final.
+4. Logística Expressa: Produtos 100% lacrados na caixa de fábrica, entregues e montados por equipe própria em até 48 horas no DF e Entorno.
+5. Garantia & Nota Fiscal: Compra legal com nota fiscal emitida e garantia de fábrica.
+
+## Catálogo Ativo de Produtos e Preços
+
+- [Home Martino Ripado com LED](https://nunesmoveis.vercel.app/#catalogo): SKU NM-HOM-01. Home para TV até 75 polegadas, painel ripado em MDF e fita LED. Preço: R$ 1.343,00 à vista no Pix ou 10x de R$ 134,30 sem juros.
+- [Conjunto Sala de Jantar Mesa Fiorença + 4 Cadeiras Sena](https://nunesmoveis.vercel.app/#catalogo): SKU NM-JNT-02. Mesa 1,20x0,90m base em madeira maciça e 4 cadeiras com tela sextavada nogueira. Preço: R$ 2.085,00 à vista ou 10x de R$ 208,50 sem juros.
+- [Colchão Box Plumatex Concept Blue Molas Ensacadas](https://nunesmoveis.vercel.app/#catalogo): SKU NM-COL-03. Molas ensacadas individuais e espuma D-28 casal. Preço: R$ 949,99 à vista.
+- [Bancada Requinte Gelius com LED](https://nunesmoveis.vercel.app/#catalogo): SKU NM-BAN-04. Rack com 3 gavetões, pés palito de madeira e fita LED. Preço: R$ 899,00 à vista ou 10x de R$ 89,90 sem juros.
+- [Colchão Gazin Espuma Supreme Casal](https://nunesmoveis.vercel.app/#catalogo): SKU NM-COL-05. Dimensões 1380x1880x210mm com selo Inmetro. Preço: R$ 789,97 à vista ou 10x de R$ 78,99 sem juros.
+- [Cadeira Stela Fam 3 Veludo com Puxador](https://nunesmoveis.vercel.app/#catalogo): SKU NM-CAD-06. Tecido veludo cinza matelassê com puxador superior. Preço: R$ 180,00 a unidade ou kit 2 por R$ 360,00.
+- [Tanquinho Lavadora Suggar Eco 15KG](https://nunesmoveis.vercel.app/#catalogo): SKU NM-ELE-07. 6 programas de lavagem e filtro de fiapos. Preço: R$ 578,00 à vista ou 10x de R$ 57,80 sem juros.
+- [Cozinha Compacta Pitaya 7 Portas Demóbile](https://nunesmoveis.vercel.app/#catalogo): SKU NM-COZ-08. 7 portas, 2 gavetas e nicho para micro-ondas acabamento cinamomo/off white. Preço: R$ 761,00 à vista ou 10x de R$ 76,10 sem juros.
+
+## Condições de Pagamento
+- Cartão de Crédito em até 10x Sem Juros
+- Desconto especial à vista no Pix
+- Crediário / Carnê Facilitado com aprovação direta na loja física
+
+## Cidades e Regiões Atendidas
+- Goiás: Valparaíso de Goiás, Cidade Ocidental, Luziânia, Novo Gama, Céu Azul, Jardim Ingá.
+- Distrito Federal: Santa Maria, Gama, Ceilândia, Samambaia, Taguatinga, Águas Claras, Guará, Vicente Pires e Brasília (Plano Piloto).
+
+## Links Relevantes
+- [Catálogo Completo com Simulador](https://nunesmoveis.vercel.app/)
+- [Arquivo de Contexto Completo para LLMs](https://nunesmoveis.vercel.app/llms-full.txt)
+- [Mapa do Site em XML](https://nunesmoveis.vercel.app/sitemap.xml)
+- [WhatsApp Direto](https://wa.me/5561981889061)
